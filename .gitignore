@@ -1,0 +1,3 @@
+# Precompiled Headers
+*.gch
+*.pch
