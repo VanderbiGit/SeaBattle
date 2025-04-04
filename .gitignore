@@ -1,3 +1,4 @@
 # Precompiled Headers
 *.gch
 *.pch
+/.vs
