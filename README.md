@@ -1,3 +1,3 @@
-Sea Batle
-Made in I course.
+# Sea Batlle
+Made in I course.<br>
 Comsole game. Enjoy.
