@@ -469,8 +469,8 @@ void showPole(char arr[][31], const int row, const int col)
 		if (i % 2 != 0)//пуста клетка
 			for (int j = 1; j < col; j += 3)
 			{
-				arr[i][j] = char(0);
-				arr[i][j + 1] = char(0);
+				arr[i][j] = ' ';
+				arr[i][j + 1] = ' ';
 			}
 
 	}
@@ -543,7 +543,7 @@ void paint(position_Kursor &pos_Kur, short arrLogikPlayr, bool playrCompForPaint
 	SetConsoleCursorPosition(h, c);
 
 	if (arrLogikPlayr == Pole::empty)
-		cout << char(0) << char(0);
+		cout << ' ' << ' ';
 
 	if (arrLogikPlayr == Pole::target)
 	{
@@ -564,7 +564,7 @@ void paint(position_Kursor &pos_Kur, short arrLogikPlayr, bool playrCompForPaint
 	else
 	{
 		if (arrLogikPlayr == Pole::ship)
-			cout << char(0) << char(0);//////////////////////////компютеру замал. кораблікі
+			cout << ' ' << ' ';//////////////////////////компютеру замал. кораблікі
 	}
 
 	if (arrLogikPlayr == Pole::kill)
